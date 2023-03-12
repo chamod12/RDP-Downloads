@@ -7,8 +7,6 @@ net localgroup administrators LittleFox /add >nul
 net user LittleFox /active:yes >nul
 net user installer /delete
 diskperf -Y >nul
-sc config Audiosrv start= auto >nul
-sc start audiosrv >nul
 ICACLS C:\Windows\Temp /grant LittleFox:F >nul
 ICACLS C:\Windows\installer /grant LittleFox:F >nul
 echo Successfully installed! If RDP is dead, rebuild again.
