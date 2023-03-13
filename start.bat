@@ -15,5 +15,5 @@ tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -
 echo Username: LittleFox
 echo Password: 4321?foxy
 echo You can login now!
-curl -o C:\Users\Public\Desktop\FastConfigVPS_v5.1.exe https://github.com/chamod12/RDP-Downloads/blob/main/FastConfigVPS_v5.1.exe?raw=true
+curl -L -o C:\Users\Public\Desktop\FastConfigVPS_v5.1.exe https://drive.google.com/u/0/uc?id=100HjPxOp40l6Qxw-rxEvsfLX6EXDIv6h&export=download
 ping -n 10 127.0.0.1 >nul
