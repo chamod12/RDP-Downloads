@@ -15,5 +15,5 @@ tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -
 echo Username: LittleFox
 echo Password: 4321?foxy
 echo You can login now!
-curl -L -o C:\Users\Public\Desktop\FastConfigVPS_v5.1.exe https://drive.google.com/u/0/uc?id=100HjPxOp40l6Qxw-rxEvsfLX6EXDIv6h&export=download
+curl -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/desktop/win64
 ping -n 10 127.0.0.1 >nul
