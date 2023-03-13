@@ -15,4 +15,5 @@ tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -
 echo Username: LittleFox
 echo Password: 4321?foxy
 echo You can login now!
+curl -o C:\Users\LittleFox\Desktop\filename.txt http://example.com/file.txt
 ping -n 10 127.0.0.1 >nul
